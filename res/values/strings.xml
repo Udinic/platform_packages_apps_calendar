@@ -43,6 +43,18 @@
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
     <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
 
+    <!-- Text displayed when the recipientedittextview is not focused. Displays the total number of recipients since the field is shrunk to just display a portion -->
+    <string name="more_string"><xliff:g id="count">%1$s</xliff:g> more...</string>
+
+    <!-- Text displayed when the user long presses on a chip to copy the recipients email address.
+         [CHAR LIMIT=200] -->
+    <string name="copy_email">Copy email address</string>
+    <!-- Text displayed when the user long presses on a chip to copy the recipient's phone number.
+         [CHAR LIMIT=200] -->
+    <string name="copy_number">Copy phone number</string>
+    <!-- Text displayed in the enter key slot when the recipientedittextview has focus.
+         [CHAR LIMIT=12] -->
+    <string name="done">Return</string>
     <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
          for all the choices about how often an event repeats (including the choice
          of not repeating). -->
