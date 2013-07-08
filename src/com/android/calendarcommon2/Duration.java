@@ -124,7 +124,7 @@ public class Duration
     }
 
     /**
-     * Add this to the calendar provided, in place, in the calendar.
+     * Add this to the calendar_udinic provided, in place, in the calendar_udinic.
      */
     public void addTo(Calendar cal)
     {

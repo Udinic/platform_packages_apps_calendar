@@ -18,9 +18,9 @@
 */
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.android.calendar"
-        android:sharedUserLabel="@string/app_label"
+        package="com.android.calendar_udinic"
         >
+        <!--android:sharedUserLabel="@string/app_label"-->
 
     <!--
        NOTE: and original-package cannot be used, since the Eclair
@@ -45,7 +45,7 @@
             android:taskAffinity="android.task.calendar"
             android:hardwareAccelerated="true"
             android:debuggable="true"
-            android:backupAgent="com.android.calendar.CalendarBackupAgent" >
+            android:backupAgent="com.android.calendar_udinic.CalendarBackupAgent" >
 
         <meta-data android:name="com.google.android.backup.api_key"
                 android:value="AEdPqrEAAAAIM256oVOGnuSel5QKDpL8je_T65ZI8rFnDinssA" />
@@ -157,7 +157,7 @@
 
         <provider android:name=".CalendarRecentSuggestionsProvider"
             android:exported="false"
-            android:authorities="com.android.calendar.CalendarRecentSuggestionsProvider" />
+            android:authorities="com.android.calendar_udinic.CalendarRecentSuggestionsProvider" />
 
         <!-- Declarations for alerts/reminders -->
         <activity android:name=".alerts.AlertActivity" android:launchMode="singleInstance"

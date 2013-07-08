@@ -71,7 +71,7 @@
         <item quantity="other"><xliff:g id="count">%d</xliff:g> minutes</item>
     </plurals>
     <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
-         This is the number of minutes displayed for a calendar reminder.  For example,
+         This is the number of minutes displayed for a calendar_udinic reminder.  For example,
          a reminder of 10 minutes would be displayed as '10 mins'.  The translation
          should use the shortest acceptable abbreviation to save space. -->
     <plurals name="Nmins">
@@ -81,7 +81,7 @@
              minutes is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
     </plurals>
-    <!-- This is the number of hours displayed for a calendar reminder.  For example,
+    <!-- This is the number of hours displayed for a calendar_udinic reminder.  For example,
          a reminder of 1 hour would be displayed as '1 hour'.  The translation
          should use the shortest acceptable abbreviation of 'hour' to save space. -->
     <plurals name="Nhours">
@@ -91,7 +91,7 @@
              hours is a parameter. -->
         <item quantity="other"><xliff:g id="count">%d</xliff:g> hours</item>
     </plurals>
-    <!-- This is the number of days displayed for a calendar reminder.  For example,
+    <!-- This is the number of days displayed for a calendar_udinic reminder.  For example,
          a reminder of 2 days would be displayed as '2 days'.  The translation
          should use the shortest acceptable abbreviation of 'day' to save space. -->
     <plurals name="Ndays">
@@ -179,10 +179,10 @@
 
     <!-- not Synced or visible status message -->
 
-    <!-- Synced status message displayed when the given calendar is stored/synced on the device
+    <!-- Synced status message displayed when the given calendar_udinic is stored/synced on the device
         [CHAR LIMIT=60] -->
     <string name="synced"> synced</string>
-    <!-- Not synced status message displayed when the given calendar is not stored/synced on the
+    <!-- Not synced status message displayed when the given calendar_udinic is not stored/synced on the
         device [CHAR LIMIT=60] -->
     <string name="not_synced"> not synced</string>
     <!-- Message displayed to user when an account with Calendars is not being auto-synced
@@ -279,7 +279,7 @@
 
     <!-- View Event -->
     <skip/>
-    <!-- Label for which calendar an event is part of -->
+    <!-- Label for which calendar_udinic an event is part of -->
     <string name="view_event_calendar_label">Calendar:</string>
     <!-- Label for the event organizer -->
     <string name="view_event_organizer_label">Organizer:</string>
@@ -347,7 +347,7 @@
     <string name="agenda_yesterday">YESTERDAY, <xliff:g id="date">%1$s</xliff:g></string>
     <!-- This is shown as part of the heading at the top of a list of today's events. -->
     <string name="agenda_tomorrow">TOMORROW, <xliff:g id="date">%1$s</xliff:g></string>
-    <!-- This is shown while the calendar events are being loading to the screen. -->
+    <!-- This is shown while the calendar_udinic events are being loading to the screen. -->
     <string name="loading">Loading\u2026</string>
     <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
     <string name="show_older_events">Touch to view events before <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
@@ -474,10 +474,10 @@
     <!-- This is the title of the screen for setting user preferences. -->
     <string name="preferences_title">"Settings"</string>
     <!-- This is the title of a section in the Settings screen for settings
-         related to viewing calendar events -->
+         related to viewing calendar_udinic events -->
     <string name="preferences_general_title">Calendar view setting</string>
     <!-- This is the title of a section in the Settings screen for settings
-         related to reminders for calendar events -->
+         related to reminders for calendar_udinic events -->
     <string name="preferences_reminder_title">Notifications \u0026 reminders</string>
     <!-- Settings check box label to hide events that the user has declined to attend -->
     <string name="preferences_hide_declined_title">Hide declined events</string>
@@ -529,7 +529,7 @@
 
     <!-- Widget -->
     <skip/>
-    <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+    <!-- Title for calendar_udinic gadget when displayed in list of all other gadgets -->
     <string name="gadget_title">Calendar</string>
 
     <!-- Shown in month view next to event icon when additional events exist for that day, but no
@@ -542,7 +542,7 @@
         <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
     </plurals>
 
-    <!-- Caption to show on gadget when there are no upcoming calendar events -->
+    <!-- Caption to show on gadget when there are no upcoming calendar_udinic events -->
     <string name="gadget_no_events">No upcoming calendar events</string>
 
     <!-- Text to show on gadget when an event is currently in progress -->
@@ -563,9 +563,9 @@
 
     <!-- Accessibility Events -->
     <!-- Strings that describes actions for buttons without text -->
-    <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+    <!-- Create a new calendar_udinic event [CHAR LIMIT = NONE]-->
 
-    <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
+    <!-- Remove a name of an attendee from a calendar_udinic event [CHAR LIMIT = NONE]-->
     <string name="accessibility_remove_attendee">Remove attendee</string>
     <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
     <string name="accessibility_pick_start_date">Start date</string>
@@ -583,11 +583,11 @@
     <string name="accessibility_remove_reminder">Remove reminder</string>
     <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
     <string name="accessibility_add_attendee">Add attendee</string>
-    <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+    <!-- Choose if to sync/unsync this calendar_udinic with its server [CHAR LIMIT = NONE]-->
     <string name="accessibility_sync_cal">Sync calendar</string>
     <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
     <string name="accessibility_all_day">All day event</string>
-    <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+    <!-- Refresh the data in the calendar_udinic [CHAR LIMIT = NONE]-->
 
     <!-- Choose the type of repetition for the event (daily, weekly, etc.[CHAR LIMIT = NONE]-->
     <string name="accessibility_repeats">Repetition</string>

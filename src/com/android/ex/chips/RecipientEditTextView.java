@@ -43,7 +43,6 @@ import android.text.InputType;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableString;
-import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.TextPaint;
 import android.text.TextUtils;
@@ -78,7 +77,7 @@ import android.widget.ListView;
 import android.widget.MultiAutoCompleteTextView;
 import android.widget.ScrollView;
 import android.widget.TextView;
-import com.android.calendar.R;
+import com.android.calendar_udinic.R;
 
 import java.util.ArrayList;
 import java.util.Arrays;

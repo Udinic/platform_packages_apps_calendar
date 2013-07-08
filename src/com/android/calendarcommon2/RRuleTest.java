@@ -34,8 +34,8 @@ import junit.framework.TestCase;
  * -e debug false
  * -w
  * -e
- * class com.android.providers.calendar.RRuleTest
- * com.android.providers.calendar.tests/android.test.InstrumentationTestRunner
+ * class com.android.providers.calendar_udinic.RRuleTest
+ * com.android.providers.calendar_udinic.tests/android.test.InstrumentationTestRunner
  */
 
 public class RRuleTest extends TestCase {
